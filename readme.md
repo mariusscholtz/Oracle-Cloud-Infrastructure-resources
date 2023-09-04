@@ -21,8 +21,8 @@ In OCI, Oracle offers several Compute shapes with the following naming conventio
     • VM.Standard.A1 refers to ARM Ampere processing architecture
 
 <pre>
-References:
+References:</pre>
 (1) [Compute Shapes:] (https://docs.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm)
 (2) [Oracle PaaS and IaaS Universal Credits Service Descriptions:] (https://www.oracle.com/assets/paas-iaas-universal-credits-3940775.pdf)
-</pre>
+
 September 2023.
