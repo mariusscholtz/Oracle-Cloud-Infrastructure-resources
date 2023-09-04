@@ -1,4 +1,4 @@
-Oracle Cloud Infrastructure Resources
+<h1>Oracle Cloud Infrastructure Resources</h1>
 
 Disclaimer
 ORACLE AND ITS AFFILIATES DO NOT PROVIDE ANY WARRANTY WHATSOEVER, EXPRESS OR IMPLIED, FOR ANY SOFTWARE, MATERIAL OR CONTENT OF ANY KIND CONTAINED OR PRODUCED WITHIN THIS REPOSITORY, AND IN PARTICULAR SPECIFICALLY DISCLAIM ANY AND ALL IMPLIED WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A PARTICULAR PURPOSE. FURTHERMORE, ORACLE AND ITS AFFILIATES DO NOT REPRESENT THAT ANY CUSTOMARY SECURITY REVIEW HAS BEEN PERFORMED WITH RESPECT TO ANY SOFTWARE, MATERIAL OR CONTENT CONTAINED OR PRODUCED WITHIN THIS REPOSITORY. IN ADDITION, AND WITHOUT LIMITING THE FOREGOING, THIRD PARTIES MAY HAVE POSTED SOFTWARE, MATERIAL OR CONTENT TO THIS REPOSITORY WITHOUT ANY REVIEW. USE AT YOUR OWN RISK.
@@ -20,9 +20,9 @@ In OCI, Oracle offers several Compute shapes with the following naming conventio
     • VM.Standard3, or VM.Standard4 refers to Intel processing architecture
     • VM.Standard.A1 refers to ARM Ampere processing architecture
 
-
+<pre>
 References:
 (1) [Compute Shapes:] (https://docs.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm)
 (2) [Oracle PaaS and IaaS Universal Credits Service Descriptions:] (https://www.oracle.com/assets/paas-iaas-universal-credits-3940775.pdf)
-
+</pre>
 September 2023.
