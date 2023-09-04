@@ -23,7 +23,7 @@ In OCI, Oracle offers several Compute shapes with the following naming conventio
 
   References:
   
-  <sup>[(1)</sup> OCI Compute Shapes detail:](https://docs.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm) (https://docs.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm)
+  <sup>[(1)</sup> OCI Compute Shapes detail:](https://docs.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm) https://docs.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm
   
   <sup>[(2)</sup> Oracle PaaS and IaaS Universal Credits Service Descriptions:](https://www.oracle.com/assets/paas-iaas-universal-credits-3940775.pdf) https://www.oracle.com/assets/paas-iaas-universal-credits-3940775.pdf
 
