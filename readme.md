@@ -4,9 +4,9 @@ Disclaimer
 ORACLE AND ITS AFFILIATES DO NOT PROVIDE ANY WARRANTY WHATSOEVER, EXPRESS OR IMPLIED, FOR ANY SOFTWARE, MATERIAL OR CONTENT OF ANY KIND CONTAINED OR PRODUCED WITHIN THIS REPOSITORY, AND IN PARTICULAR SPECIFICALLY DISCLAIM ANY AND ALL IMPLIED WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A PARTICULAR PURPOSE. FURTHERMORE, ORACLE AND ITS AFFILIATES DO NOT REPRESENT THAT ANY CUSTOMARY SECURITY REVIEW HAS BEEN PERFORMED WITH RESPECT TO ANY SOFTWARE, MATERIAL OR CONTENT CONTAINED OR PRODUCED WITHIN THIS REPOSITORY. IN ADDITION, AND WITHOUT LIMITING THE FOREGOING, THIRD PARTIES MAY HAVE POSTED SOFTWARE, MATERIAL OR CONTENT TO THIS REPOSITORY WITHOUT ANY REVIEW. USE AT YOUR OWN RISK.
 
 
-Oracle Cloud Infrastructure (OCI) resources
+<b>Oracle Cloud Infrastructure (OCI) resources</b>
 
-Compute shape naming convention
+<b>Compute shape naming convention</b>
 
 Overview: 
 Oracle OCI offers several CPU architecture for customers to deploy their workloads. This writeup explains the naming convention of the OCI Compute shapes.
@@ -22,7 +22,7 @@ In OCI, Oracle offers several Compute shapes with the following naming conventio
 
 
 References:
-(1) Compute Shapes: https://docs.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm 
-(2) Oracle PaaS and IaaS Universal Credits Service Descriptions: https://www.oracle.com/assets/paas-iaas-universal-credits-3940775.pdf
+(1) [Compute Shapes:] (https://docs.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm)
+(2) [Oracle PaaS and IaaS Universal Credits Service Descriptions:] (https://www.oracle.com/assets/paas-iaas-universal-credits-3940775.pdf)
 
 September 2023.
