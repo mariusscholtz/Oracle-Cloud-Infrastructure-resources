@@ -18,7 +18,7 @@ For Oracle Linux 7 and later, do the following:
 Display current hostname using terminal:
  $ hostnamectl
 
-<img alt="prod1" src="images/prod1-hostnamectl.png" title="hostnamecl" width="90%" style="float:right">
+<img alt="prod1" src="images/prod1-hostnamectl-2.png" title="hostnamecl" width="90%" style="float:right">
 
 
 2: Update the /etc/hostname file with the new hostname: prodapp1
