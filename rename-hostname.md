@@ -5,8 +5,9 @@ This section explains how to change the hostname of a Virtual Machine (VM) creat
 
 ### How to change hostname of VM on OCI
 
-In this example the hostname is set to: prod1
-We want to change the hostname to: prodapp1
+In this example the hostname is set to: **prod1**
+
+We want to change the hostname to: **prodapp1**
 
 For Oracle Linux 7 and later, do the following:
 
@@ -30,6 +31,7 @@ Display current hostname using terminal:
     PRESERVE_HOSTINFO=2
     save the changes.
 
+<pre>
 4: Edit the FQDN from OCI console GUI
 go to compute instances on the OCI Console
 --> select the instance
@@ -40,7 +42,7 @@ go to compute instances on the OCI Console
 --> update VNIC
 --> Save changes
 --> More action -> Edit shape -> Change instance name to prodapp1
-
+</pre>
 <img alt="prod1" src="images/edit-shape.png" title="Edit shape" width="90%" style="float:right">
 
 <img alt="prod1" src="images/edit-vnic.png" title="Edit VNIC" width="90%" style="float:right">
