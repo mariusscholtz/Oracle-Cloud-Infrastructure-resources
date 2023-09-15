@@ -11,9 +11,9 @@ We want to change the hostname to: prodapp1
 For Oracle Linux 7 and later, do the following:
 
 1: Display current hostname using OCI console:
+ <img alt="prod1" src="images/prod1-info1.png" title="Create instance" width="90%" style="float:right">
 
- <img alt="prod1" src="images/prod1.png" title="Create instance" width="90%" style="float:right">
-
+ <!-- <img alt="prod1" src="images/prod1.png" title="Create instance" width="90%" style="float:right"> -->
 
 Display current hostname using terminal:
  $ hostnamectl
@@ -22,6 +22,7 @@ Display current hostname using terminal:
 
 
 2: Update the /etc/hostname file with the new hostname: prodapp1
+
   $ sudo hostnamectl set-hostname prodapp1
 
 3: Edit the oci configuration file for hostnames as given below to update the needed value to 2.
@@ -40,31 +41,23 @@ go to compute instances on the OCI Console
 --> Save changes
 --> More action -> Edit shape -> Change instance name to prodapp1
 
-5: Reboot the instance from the OCI console
+<img alt="prod1" src="images/edit-shape.png" title="Edit shape" width="90%" style="float:right">
+
+<img alt="prod1" src="images/edit-vnic.png" title="Edit VNIC" width="90%" style="float:right">
+
+<img alt="prod1" src="images/edit-vnic-more.png" title="Edit VNIC more" width="90%" style="float:right">
+
+
+
+5: Reboot the instance to apply the new hostname. Use OCI Console to reboot the Compute instance:
 $ sudo init 6
 
-<Add image>
+<img alt="prodapp1" src="images/prodapp1-oci-console.png" title="OCI COnsole prodapp1 info" width="90%" style="float:right">
 
-How to change timezone of a VM: Oracle Doc 2775348.1
-In this example, the timezone will be changed to Africa/Johannesburg
-$ sudo su -
-$ sudo timedatectl list-timezones
-$ sudo timedatectl set-timezone <desired_timezone>
-$ sudo timedatectl set-timezone Africa/Johannesburg
-$ ls -l /etc/localtime
-$ date
+<img alt="prodapp1" src="images/prodapp1.png" title="prodapp1 infor from terminal" width="90%" style="float:right">
 
-<!-- <Add image>
-<img alt="Cloud Computing" src="images/cloud-computing.png" title="Cloud Computing" width="10%" style="float:right">
--->
-
-
-  References:
-  
+### References:
   [(1) How to change hostname of VM on OCI (Doc ID 2325469.1)](https://support.oracle.com/knowledge/Oracle%20Cloud/2325469_1.html)
-  [(2) How to change timezone of VM on OCI (Doc ID 2775348.1)](https://support.oracle.com/knowledge/Oracle%20Cloud/2775348_1.html)
-
-
 
 # License
 Copyright (c) 2023 Oracle and/or its affiliates.
