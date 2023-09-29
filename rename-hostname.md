@@ -1,15 +1,15 @@
-## Change hostname of OCI Compute Virtual Machine
+## Change hostname of OCI Compute Instance Virtual Machine
 
 ### Overview
-This section explains how to change the hostname of a Virtual Machine (VM) created on Oracle Cloud Infrastructure (OCI). When a VM is created on OCI, the hostname will be set the same as the 'instance name'.
+This section explains how to change the hostname of a Virtual Machine (VM) created on Oracle Cloud Infrastructure (OCI). When a Virtual Machine (VM) is created on OCI, the hostname will be the same name as the 'Compute Instance name'.
 
 ### How to change hostname of VM on OCI
 
-In this example the hostname is set to: **prod1**
+In this example the current hostname is set to: **prod1**
 
 We want to change the hostname to: **prodapp1**
 
-For Oracle Linux 7 and later, do the following:
+If the OCI Compute Instance VM is running Oracle Linux 7 and later, do the following:
 
 1: Display current hostname using OCI console:
  <img alt="prod1" src="images/prod1-info1.png" title="Create instance" width="90%" style="float:right">
