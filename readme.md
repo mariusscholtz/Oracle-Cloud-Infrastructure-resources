@@ -7,7 +7,6 @@ ORACLE AND ITS AFFILIATES DO NOT PROVIDE ANY WARRANTY WHATSOEVER, EXPRESS OR IMP
 # Oracle Cloud Infrastructure (OCI) resources
 
 ## OCI Compute shape naming convention
-
 Overview: 
 Oracle OCI offers several CPU architecture for customers to deploy their workloads. This writeup explains the naming convention of the OCI Compute shapes.
 
@@ -29,9 +28,13 @@ In OCI, Oracle offers several Compute shapes with the following naming conventio
 
 
 ## Rename the Hostname for OCI Compute shape running Oracle Linux
-
 Overview: 
 Renaming a virtual machine hostname is very simple on Oracle Cloud Infrastructure (OCI).
 This [process](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/rename-hostname.md) explains how to rename the hostname on Oracle Linux, and also renaming the Compute instance shape name.
 
+
+## What is an OCPU? Oracle Compute processing unit
+Overview: 
+An OCPU is the unit used by Oracle when performing sizing and [costing](https://www.oracle.com/cloud/costestimator.html) for cloud environments. An OCPU is equivalent to one core. 
+This [page](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/what-is-ocpu-vcpu.md) explains in more detial the correlation between Core, VCPU, and OCPU.
 
