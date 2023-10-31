@@ -5,6 +5,17 @@ ORACLE AND ITS AFFILIATES DO NOT PROVIDE ANY WARRANTY WHATSOEVER, EXPRESS OR IMP
 
 
 # Oracle Cloud Infrastructure (OCI) resources
+Overview:
+This page displays information and technical resources relating to Oracle CLoud Infrastructure.
+
+# Table of content
+1. [OCI Compute shape naming convention](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/edit/main/readme.md#oci-compute-shape-naming-convention)
+2. [Rename the Hostname for OCI Compute shape running Oracle Linux](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/edit/main/readme.md#rename-the-hostname-for-oci-compute-shape-running-oracle-linux)
+3. [What is an OCPU - Oracle Compute processing unit](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/what-is-ocpu-vcpu.md) 
+
+
+
+
 
 ## OCI Compute shape naming convention
 Overview: 
