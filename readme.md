@@ -27,4 +27,11 @@ In OCI, Oracle offers several Compute shapes with the following naming conventio
   
   <sup>[(2)</sup> Oracle PaaS and IaaS Universal Credits Service Descriptions:](https://www.oracle.com/assets/paas-iaas-universal-credits-3940775.pdf) https://www.oracle.com/assets/paas-iaas-universal-credits-3940775.pdf
 
---September 2023
+
+## Rename the Hostname for OCI Compute shape running Oracle Linux
+
+Overview: 
+Renaming a virtual machine hostname is very simple on Oracle Cloud Infrastructure (OCI).
+This [process](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/rename-hostname.md) explains how to rename the hostname on Oracle Linux, and also renaming the Compute instance shape name.
+
+
