@@ -1,20 +1,12 @@
-# Oracle Cloud Infrastructure Resources
-
-Disclaimer
-ORACLE AND ITS AFFILIATES DO NOT PROVIDE ANY WARRANTY WHATSOEVER, EXPRESS OR IMPLIED, FOR ANY SOFTWARE, MATERIAL OR CONTENT OF ANY KIND CONTAINED OR PRODUCED WITHIN THIS REPOSITORY, AND IN PARTICULAR SPECIFICALLY DISCLAIM ANY AND ALL IMPLIED WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A PARTICULAR PURPOSE. FURTHERMORE, ORACLE AND ITS AFFILIATES DO NOT REPRESENT THAT ANY CUSTOMARY SECURITY REVIEW HAS BEEN PERFORMED WITH RESPECT TO ANY SOFTWARE, MATERIAL OR CONTENT CONTAINED OR PRODUCED WITHIN THIS REPOSITORY. IN ADDITION, AND WITHOUT LIMITING THE FOREGOING, THIRD PARTIES MAY HAVE POSTED SOFTWARE, MATERIAL OR CONTENT TO THIS REPOSITORY WITHOUT ANY REVIEW. USE AT YOUR OWN RISK.
-
-
 # Oracle Cloud Infrastructure (OCI) resources
-Overview:
-This page displays information and technical resources relating to Oracle CLoud Infrastructure.
+This page displays information and technical resources relating to Oracle Cloud Infrastructure.
+
+<i> Review Date: 20 November 2023</i>
 
 # Table of content
 1. [OCI Compute shape naming convention](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources#oci-compute-shape-naming-convention)
 2. [Rename the Hostname for OCI Compute shape running Oracle Linux](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources#rename-the-hostname-for-oci-compute-shape-running-oracle-linux)
 3. [What is an OCPU - Oracle Compute processing unit](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/what-is-ocpu-vcpu.md) 
-
-
-
 
 
 ## OCI Compute shape naming convention
@@ -48,4 +40,11 @@ This [process](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-reso
 Overview: 
 An OCPU is the unit used by Oracle when performing sizing and [costing](https://www.oracle.com/cloud/costestimator.html) for cloud environments. An OCPU is equivalent to one core. 
 This [page](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/what-is-ocpu-vcpu.md) explains in more detial the correlation between Core, VCPU, and OCPU.
+
+# Licensing
+Copyright (c) 2023 Oracle and/or its affiliates.
+
+Licensed under the Universal Permissive License (UPL), Version 1.0.
+
+See [LICENSE](https://github.com/oracle-devrel/technology-engineering/blob/main/LICENSE) for more details.
 
