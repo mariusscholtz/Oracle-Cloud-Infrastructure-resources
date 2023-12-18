@@ -17,7 +17,7 @@ Each node in the cluster will run
 - The cluster will be created on a public subnet for easier access and will run on the OCI provided private network.
   
 The picture below shows a graphical representation
-![cluster image](images/demo-cl-draw.png)
+![cluster image](../images/demo-cl-draw.png)
 <!--  <img alt="cluster" src="images/demo-cl-drawio.png" width="10%" style="float:right"></img> -->
 
 
@@ -35,7 +35,7 @@ Change the default root prompt to show to full path of the current directory:
 > PS1=$LOGNAME@`uname -n`:'$PWD # ';export PS1
 
 > $ sudo vi /etc/hosts and add both nodes in the cluster, and ping the nodes to see if they are alive:
-![hosts image](images/hosts.png)
+![hosts image](../images/hosts.png)
 <!-- <img alt="hosts.png" src="images/hosts.png" width="10%" style="float:right"> -->
 
 ## Install oci cli on both nodes in the cluster
@@ -60,7 +60,7 @@ pass_phrase=w******<br>
 </p>
 
 Test oci cli, for example get the namespace for Object storage:
-![oci cli](images/oci-os-ns-get.png)
+![oci cli](../images/oci-os-ns-get.png)
 
 > $ sudo oci os ns get
 > <p>
@@ -74,16 +74,16 @@ Test oci cli, for example get the namespace for Object storage:
 
 On node1: Create a secondary VNIC using OCI console. Create on the same network as node1 and node2. 
 Click OCI console → Compute instance → Attached VNIC 
-![virtualip image](images/oci-console-virtualip1.png)
+![virtualip image](../images/oci-console-virtualip1.png)
 
 Note down the IP Address. In my case it is 10.6.0.151
 See https://docs.oracle.com/en-us/iaas/Content/Network/Tasks/private-ip-address-move-vnic.htm 
 
-![virtualip2 image](images/oci-console-virtualip2.png)
+![virtualip2 image](../images/oci-console-virtualip2.png)
 
 
 Create the Virtual IP failover script, /root/move-fip.sh
-![move-fip.sh image](images/move-fip.png)
+![move-fip.sh image](../images/move-fip.png)
 
 <p>
 #!/bin/sh<br>
@@ -111,7 +111,7 @@ fi
 > 
 > Taking no action as IP address 10.6.0.151 is already assigned to VNIC ocid1.vnic.oc1.eu-frankfurt-1.a...
 
-![move-fip image](images/move-fip2.png)
+![move-fip image](../images/move-fip2.png)
 
 ## Install corosync and pacemaker software on both nodes:
 See https://blogs.oracle.com/ateam/post/isv-implementation-details-part-4a-linux-clustering-with-pacemaker-and-corosync  
@@ -155,18 +155,18 @@ Authorize the cluster nodes: On node1:
 > $ sudo pcs host auth node1 node2 (as per /etc/hosts).
 
 It will ask for authorization, use hacluster and the password you set before. 
-![pcs host auth image](images/pcs-host-auth.png)
+![pcs host auth image](../images/pcs-host-auth.png)
 
 
 If you get error unable to authenticate with node2 then make sure to add port 2224 as destination port on your security list for the network you are using:
 
-![ingres-rules image](images/ingres-rules.png)
+![ingres-rules image](../images/ingres-rules.png)
 
 
 Create the cluster on node1
 > $ sudo pcs cluster setup --start oci-cl node1 node2
 
-![pcs-cluster-setup image](images/pcs-cluster-setup.png)
+![pcs-cluster-setup image](../images/pcs-cluster-setup.png)
 
 On node1: Start the cluster: 
 > $ sudo pcs cluster start node1 node2
@@ -180,13 +180,13 @@ Disabling STONITH and Ignoring Quorum:
 On node1: Setup the cluster to start automatically on reboot: 
 > $ sudo pcs cluster enable --all
 
-![pcs-cluster-enable image](images/pcs-cluster-enable.png)
+![pcs-cluster-enable image](../images/pcs-cluster-enable.png)
 
 
 Display cluster status on node1, run: 
 > $ sudo pcs status
 
-![pcs-cluster-status image](images/pcs-cluster-status-no-res.png)
+![pcs-cluster-status image](../images/pcs-cluster-status-no-res.png)
 
 
 Create dummy service and test failover:
@@ -194,7 +194,7 @@ https://docs.oracle.com/en/operating-systems/oracle-linux/9/availability/OL9-AVA
 On node1: 
 > $ sudo pcs resource create dummy-service ocf:pacemaker:Dummy op monitor interval=120s
 
-![pcs-dummy-service image](images/pcs-dummy-service.png)
+![pcs-dummy-service image](../images/pcs-dummy-service.png)
 
 
 
@@ -202,7 +202,7 @@ On node1:
 Move the dummy-service resource to node2 to test failover:
 > $ sudo pcs resource move dummy-service node2
 
-![pcs-dummy-service-move image](images/pcs-dummy-service-move.png)
+![pcs-dummy-service-move image](../images/pcs-dummy-service-move.png)
 
 
 **Create the Virtual IP failover resource**
@@ -245,20 +245,20 @@ Once the move-fip.sh script works on both nodes, then you can create the cluster
 Create Virtual IP resource:
 > $ sudo pcs resource create virtualip IPaddr2 ip=10.6.0.151  cidr_netmask=24 op monitor interval=30s
 
-![pcs-virtualip-create image](images/pcs-create-resource-virtualip.png)
+![pcs-virtualip-create image](../images/pcs-create-resource-virtualip.png)
 
 ping the virtual IP and see if it is alive
 
-![ping-virtualip image](images/ping-virtualip.png)
+![ping-virtualip image](../images/ping-virtualip.png)
 
 Move the virtualip that is running on node1 to node2
 
-![move-virtualip-res image](images/pcs-move-virtualip-to-node2.png)
+![move-virtualip-res image](../images/pcs-move-virtualip-to-node2.png)
 
 Display the virtualip resource detail: 
 > $ sudo pcs resource config virtualip
 
-![virtualip-pcs-resource-confg image](images/pcs-resource-config.png)
+![virtualip-pcs-resource-confg image](../images/pcs-resource-config.png)
 
 You can now use the failover IP 10.6.0.151 for your applications. For example run your Apache web on this virtualip.
 
@@ -277,8 +277,8 @@ Check if the port is open:
 > $ sudo netstat -tnualp|grep 2224
 
 Here are some screenshots to the Web UI: 
-![webui1 image](images/webui1.png)
-![webui2 image](images/webui2.png)
+![webui1 image](../images/webui1.png)
+![webui2 image](../images/webui2.png)
 
 
 
@@ -290,6 +290,3 @@ Here are some screenshots to the Web UI:
 Copyright (c) 2023 Oracle and/or its affiliates.
 Licensed under the Universal Permissive License (UPL), Version 1.0.
 See [LICENSE](https://github.com/oracle-devrel/technology-engineering/blob/folder-structure/LICENSE) for more details.
-
---oooOooo---
-
