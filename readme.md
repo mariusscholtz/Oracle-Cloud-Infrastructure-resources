@@ -8,6 +8,8 @@ This page displays information and technical resources relating to Oracle Cloud 
 2. [Rename the Hostname for OCI Compute shape running Oracle Linux](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources#rename-the-hostname-for-oci-compute-shape-running-oracle-linux)
 3. [What is an OCPU - Oracle Compute processing unit](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/what-is-ocpu-vcpu.md) 
 4. [Building a Linux cluster using Corosync and Pacemaker](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/cluster/readme.md)
+4. [Migrate a Compute shape from VM.Standard2.x to flexible shape on OCI](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/VM-shapes/Migrate-VM.Standard2%20to%20Flex%20shape.pdf)
+
 
 ## OCI Compute shape naming convention
 Overview: 
