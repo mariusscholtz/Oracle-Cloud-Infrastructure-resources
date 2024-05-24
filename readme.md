@@ -1,14 +1,15 @@
 # Oracle Cloud Infrastructure (OCI) resources
 This page displays information and technical resources relating to Oracle Cloud Infrastructure.
 
-<i> Review Date: 19 January 2024</i>
+<i> Review Date: 24 May 2024</i>
 
 # Table of content
 1. [OCI Compute shape naming convention](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources#oci-compute-shape-naming-convention)
 2. [Rename the Hostname for OCI Compute shape running Oracle Linux](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources#rename-the-hostname-for-oci-compute-shape-running-oracle-linux)
 3. [What is an OCPU - Oracle Compute processing unit](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/what-is-ocpu-vcpu.md) 
 4. [Building a Linux cluster using Corosync and Pacemaker](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/cluster/readme.md)
-4. [Migrate a Compute shape from VM.Standard2.x to flexible shape on OCI](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/VM-shapes/Migrate-VM.Standard2%20to%20Flex%20shape.pdf)
+5. [Migrate a Compute shape from VM.Standard2.x to flexible shape on OCI](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/VM-shapes/Migrate-VM.Standard2%20to%20Flex%20shape.pdf)
+6. [Transfer data to and from cloud using OS tools](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources#transfer-data-to-and-from-cloud)
 
 
 ## OCI Compute shape naming convention
@@ -42,6 +43,10 @@ This [process](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-reso
 Overview: 
 An OCPU is the unit used by Oracle when performing sizing and [costing](https://www.oracle.com/cloud/costestimator.html) for cloud environments. An OCPU is equivalent to one core. 
 This [page](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/what-is-ocpu-vcpu.md) explains in more detial the correlation between Core, VCPU, and OCPU.
+
+
+## Transfer data to and from cloud {#transfer-data-to-and-from-cloud}
+Transfer data to and from Oracle Cloud Infrastructure using OS tools such as sftp, scp, oci cli, curl. This document explains how to use these technologies and where to find more resources. See PDF
 
 # Licensing
 Copyright (c) 2023 Oracle and/or its affiliates.
