@@ -9,7 +9,7 @@ This page displays information and technical resources relating to Oracle Cloud 
 3. [What is an OCPU - Oracle Compute processing unit](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/what-is-ocpu-vcpu.md) 
 4. [Building a Linux cluster using Corosync and Pacemaker](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/cluster/readme.md)
 5. [Migrate a Compute shape from VM.Standard2.x to flexible shape on OCI](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/VM-shapes/Migrate-VM.Standard2%20to%20Flex%20shape.pdf)
-6. [Transfer data to and from cloud using OS tools](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources#transfer-data-to-and-from-cloud-transfer-data-to-and-from-cloud)
+6. [Transfer data to and from cloud using OS tools](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources#transfer-data-to-and-from-cloud)
 
 ## OCI Compute shape naming convention
 Overview: 
