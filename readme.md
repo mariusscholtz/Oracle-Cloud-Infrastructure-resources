@@ -45,7 +45,7 @@ This [page](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resourc
 
 
 ## Transfer data to and from cloud
-Transfer data to and from Oracle Cloud Infrastructure using OS tools such as sftp, scp, oci cli, curl. This document explains how to use these technologies and where to find more resources. See PDF
+Transfer data to and from Oracle Cloud Infrastructure using OS tools such as sftp, scp, oci cli, curl. This document explains how to use these technologies and where to find more resources. See this [document](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/VM-shapes/data%20transfer%20to%20OCI%20v1.0.pdf)
 
 # Licensing
 Copyright (c) 2023 Oracle and/or its affiliates.
