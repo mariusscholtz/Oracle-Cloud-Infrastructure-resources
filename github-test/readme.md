@@ -2,7 +2,9 @@
 
 This is a test page
 
-Login to github -> Select your project -> File new -> Add folder-name/readme.md
+# Create a new repository
+Login to github -> Create new repository -> select Public or private
+Select Repository -> Select your project -> File new -> Add folder-name/readme.md
 
 <!-- This is a test document to show markdown language:
 30 July 2024
