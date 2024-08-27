@@ -40,12 +40,13 @@ This is the link to Oracle and using html code: <a href="http://www.oracle.com">
 <!-- This is a table. See https://www.codecademy.com/resources/docs/markdown/tables
 -->
 Item pricing table
-| Item              | In Stock | Price |
+| Cattle for sale | In Stock | Price |
 | :---------------- | :------: | ----: |
-| Python Hat        |   True   | 23.99 |
-| SQL Hat           |   True   | 23.99 |
-| Codecademy Tee    |  False   | 19.99 |
-| Codecademy Hoodie |  False   | 42.99 |
+| Bonsmara        |   True   | 3.99 |
+| Nguni           |   True   | 2.99 |
+| Drakensberger    |  False   | 3001.99 |
+| Brahman |  False   | 101.99 |
+| Simmentaler |  True   | 12.99 |
 
 
 # Working with images
