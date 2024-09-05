@@ -54,7 +54,7 @@ Item pricing table
 
 # Working with images
 Example1: test1.png
-<img title="This is a test image" alt="On mouse over text" src="../images/test.png">
+<img title="This is a test image" alt="On mouse over text" src="../images/test.png" width="50">
 
 <!-- Comment: 
 Example2: test2.jpg
