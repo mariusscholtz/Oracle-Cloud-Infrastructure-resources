@@ -54,9 +54,11 @@ Item pricing table
 
 # Working with images
 Example1: test1.png
-<img title="This is a test image" alt="On mouse over text" src="images/test1.png">
+<img title="This is a test image" alt="On mouse over text" src="../images/test.png">
 
+<!-- Comment: 
 Example2: test2.jpg
-<img src="images/test2.jpg" alt="test2" width="200"/>
+<img src="../images/test.jpg" alt="test2" width="200"/>
+-->
 
 [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
