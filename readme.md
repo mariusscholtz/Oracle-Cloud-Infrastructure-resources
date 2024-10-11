@@ -1,7 +1,7 @@
 # Oracle Cloud Infrastructure (OCI) resources
 This page displays information and technical resources relating to Oracle Cloud Infrastructure.
 
-<i> Review Date: 05 Sep 2024</i>
+<i> Review Date: 11 Oct 2024</i>
 
 # Table of content
 1. [OCI Compute shape naming convention](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources#oci-compute-shape-naming-convention)
@@ -9,9 +9,9 @@ This page displays information and technical resources relating to Oracle Cloud 
 3. [What is an OCPU - Oracle Compute processing unit](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/what-is-ocpu-vcpu.md) 
 4. [Building a Linux cluster using Corosync and Pacemaker](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/cluster/readme.md)
 5. [Migrate a Compute shape from VM.Standard2.x to flexible shape on OCI](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/VM-shapes/Migrate-VM.Standard2%20to%20Flex%20shape.pdf)
-6. [Migrate SPARC to OCI](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/documents/Migrate-SPARC-to-OCI-v1.0.pdf) 
-7. [Transfer data to and from cloud using OS tools](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources#transfer-data-to-and-from-cloud)
-8. [Mount a boot volume from one compute instance (or VM) onto another compute instance in order to replace lost ssh keys](https://gitlab.com/ms76152/system-administration)
+6. [Transfer data to and from cloud using OS tools](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources#transfer-data-to-and-from-cloud)
+7. [Mount a boot volume from one compute instance (or VM) onto another compute instance in order to replace lost ssh keys](https://gitlab.com/ms76152/system-administration)
+8.  [Migrate SPARC to OCI](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/documents/Migrate-SPARC-to-OCI-v1.0.pdf) - This document outlines key factors to consider when transitioning from SPARC Solaris to Oracle Cloud Infrastructure.
 
 ## OCI Compute shape naming convention
 Overview: 
