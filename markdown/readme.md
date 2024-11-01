@@ -40,7 +40,7 @@ This is the link to Oracle and using html code: <a href="http://www.oracle.com">
 
 **Copying text blocks**
 
-Add a tab spacing to your text and Markadown will automatically allow you to copy text.
+Add 2 tab spacings in front of your text will allow Markdown to copy text.
 
     code1 with 2 tab spaces
     code2 with 2 tab spaces
