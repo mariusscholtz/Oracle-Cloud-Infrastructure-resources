@@ -30,18 +30,26 @@ Comment uses <!--
 Bold text is done with 2 asterisks, like **this**
 
 This is the link to Oracle and using html code: <a href="http://www.oracle.com">Oracle page</a>
-
-<BR>
 [Another example for a link](https://www.oracle.com/cloud/)
 
-> blockquote1
-> blockquote2
->> AAA
->> BBB
+**Block quote**
+> Indent blockquote1
+> Indent blockquote2
+>> Further indent AAA
+>> Furher indent BBB
 
+**Copying text blocks**
+
+Add a tab spacing to your text and Markadown will automatically allow you to copy text.
+
+    code1 with 2 tab spaces
+    code2 with 2 tab spaces
+    code3 with 2 tab spaces
+    code4 with 2 tab spaces
 
 <!-- This is a table. See https://www.codecademy.com/resources/docs/markdown/tables
 -->
+**Table example**
 Item pricing table
 | Cattle for sale | In Stock | Price |
 | :---------------- | :------: | ----: |
