@@ -42,7 +42,9 @@ This is the link to Oracle and using html code: <a href="http://www.oracle.com">
 
 Add 2 tab spacings in front of your text will allow Markdown to copy text.
 
-    code1 with 2 tab spaces
+<tab><tab>text, like this:
+
+
     code2 with 2 tab spaces
     code3 with 2 tab spaces
     code4 with 2 tab spaces
