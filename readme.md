@@ -1,7 +1,7 @@
 # Oracle Cloud Infrastructure (OCI) resources
 This page displays information and technical resources relating to Oracle Cloud Infrastructure.
 
-<i> Review Date: 11 Oct 2024</i>
+<i> Review Date: 04 Nov. 2024</i>
 
 # Table of content
 1. [OCI Compute shape naming convention](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources#oci-compute-shape-naming-convention)
@@ -12,6 +12,8 @@ This page displays information and technical resources relating to Oracle Cloud 
 6. [Transfer data to and from cloud using OS tools](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources#transfer-data-to-and-from-cloud)
 7. [Mount a boot volume from one compute instance (or VM) onto another compute instance in order to replace lost ssh keys](https://gitlab.com/ms76152/system-administration)
 8.  [Migrate SPARC to OCI](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/documents/Migrate-SPARC-to-OCI-v1.0.pdf) - This document outlines key factors to consider when transitioning from SPARC Solaris to Oracle Cloud Infrastructure.
+9.  [Cockpit – Web console to manage Oracle Linux](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/tree/main/cockpit) - System administration graphical web console for Oracle Linux
+
 
 ## OCI Compute shape naming convention
 Overview: 
