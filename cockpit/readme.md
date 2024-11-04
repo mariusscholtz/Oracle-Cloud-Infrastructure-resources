@@ -52,19 +52,19 @@ Works the same as [Centos 7](http://unix-linux-server.blogspot.com/2015/01/insta
 
 <pre>
 System overview using Cockpit:
-<img src="images/cockpit-image05.png" title="System overview" width="90%" style="float:right"/>
+<img src="../images/cockpit-image05.png" title="System overview" width="90%" style="float:right"/>
 
 Cockpit login:
-<img src="images/cockpit-image01.png" title="System overview" width="90%" style="float:right"/>
+<img src="../images/cockpit-image01.png" title="System overview" width="90%" style="float:right"/>
 
 Operating system list of services:
-<img src="images/cockpit-image02.png" title="Operating system list of services" width="90%" style="float:right"/>
+<img src="../images/cockpit-image02.png" title="Operating system list of services" width="90%" style="float:right"/>
 
 Log viewer:
-<img src="images/cockpit-image03.png" title="Operating system log viewer" width="90%"/>
+<img src="../images/cockpit-image03.png" title="Operating system log viewer" width="90%"/>
 
 Software updates:
-<img src="images/cockpit-image04.png" title="OS updates" width="90%"/>
+<img src="../images/cockpit-image04.png" title="OS updates" width="90%"/>
 </pre>
 
 
