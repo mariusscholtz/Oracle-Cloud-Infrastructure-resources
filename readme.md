@@ -1,7 +1,7 @@
 # Oracle Cloud Infrastructure (OCI) resources
 This page displays information and technical resources relating to Oracle Cloud Infrastructure.
 
-<i> Review Date: 04 Nov. 2024</i>
+<i> Review Date: 06 December 2024</i>
 
 # Table of content
 1. [OCI Compute shape naming convention](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources#oci-compute-shape-naming-convention)
