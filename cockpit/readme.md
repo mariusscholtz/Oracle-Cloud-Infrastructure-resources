@@ -27,7 +27,7 @@ Works the same as [Centos 7](http://unix-linux-server.blogspot.com/2015/01/insta
     
 
 
-[Installation guide for Oracle Linux 8](https://docs.oracle.com/en/operating-systems/oracle-linux/cockpit/)
+[Installation guide for Oracle Linux 8 and 9](https://docs.oracle.com/en/operating-systems/oracle-linux/cockpit/)
 		
     sudo dnf install -y cockpit cockpit-machines
     sudo systemctl enable --now cockpit.socket
