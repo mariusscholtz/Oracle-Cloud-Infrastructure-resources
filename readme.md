@@ -1,7 +1,7 @@
 # Oracle Cloud Infrastructure (OCI) resources
 This page displays information and technical resources relating to Oracle Cloud Infrastructure.
 
-<i> Review Date: 07 October 2025</i>
+<i> Review Date: 18 August 2026</i>
 
 # Table of content
 - [OCI Compute shape naming convention](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources#oci-compute-shape-naming-convention)
@@ -14,7 +14,7 @@ This page displays information and technical resources relating to Oracle Cloud 
 - [Migrate SPARC to OCI](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/documents/Migrate-SPARC-to-OCI-v1.0.pdf) - This document outlines key factors to consider when transitioning from SPARC Solaris to Oracle Cloud Infrastructure.
 - [Cockpit – Web console to manage Oracle Linux](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/tree/main/cockpit) - System administration graphical web console for Oracle Linux
 - [Oracle Cloud Infrastructure Compute Maintenance, Live Migration and Migration reboot](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/documents/OCI-maintenance-live-migration-reboot-migration.pdf)
-
+- This [document](https://github.com/mariusscholtz/Oracle-Cloud-Infrastructure-resources/blob/main/kvm/readme.md) explains how to deploy Kernel-based Virtual Machine (KVM) on Oracle Cloud Infrastructure Bare Metal.
 
 ## OCI Compute shape naming convention
 Overview: 
