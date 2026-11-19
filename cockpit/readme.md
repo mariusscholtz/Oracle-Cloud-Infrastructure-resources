@@ -14,28 +14,44 @@ Cockpit provides Linux administration features such as System overview, Log deta
 
 ## Installation of Cockpit
 
+
+
+
+    
+
+
+[Installation guide for Oracle Linux 8,9 and 10](https://docs.oracle.com/en/operating-systems/oracle-linux/cockpit/)
+		
+    sudo dnf install -y cockpit cockpit-machines
+    sudo systemctl enable --now cockpit.socket
+    sudo systemctl status cockpit.socket
+    Enable security list for port 9090 on OCI
+	Open the firewall for http/https and port 9090:
+	sudo firewall-cmd --permanent --add-service={http,https}
+	sudo firewall-cmd --permanent --add-port=9090/tcp
+	sudo firewall-cmd --reload
+	sudo firewall-cmd --list-all
+	
+    If the Compute Instance is located on private subnet, then create an SSH tunnel on your laptop:
+	ssh -i private-key -L 9090:localhost:9090 opc@ip_address_of_instance
+    Open browser http://localhost:9090
+	
+	If the Compute Instance is located on public subnet, then access Cockpit with 
+	https://public-ip-of-compute:9090
+    Login using opc credentials and tick “Reuse my password for privileged tasks”
+
+	
+
 [Installation guide for Oracle Linux 7](https://docs.oracle.com/en/operating-systems/oracle-linux/cockpit/)
 
 Works the same as [Centos 7](http://unix-linux-server.blogspot.com/2015/01/install-cockpit-on-centos-7.html)
 
     sudo yum install cockpit cockpit-machines-overt
     sudo firewall-cmd --add-service=cockpit --permanent
-    sudo firewall-cmd –reload
+    sudo firewall-cmd –-reload
     sudo firewall-cmd --list-services
     Edit file /usr/lib/systemd/system/cockpit.service and modify ExecStart line to look like this.
     ExecStart=/usr/libexec/cockpit-ws --no-tls
-    
-
-
-[Installation guide for Oracle Linux 8 and 9](https://docs.oracle.com/en/operating-systems/oracle-linux/cockpit/)
-		
-    sudo dnf install -y cockpit cockpit-machines
-    sudo systemctl enable --now cockpit.socket
-    sudo systemctl status cockpit.socket
-    Enable security list for port 9090 on OCI
-    On laptop, create an SSH tunnel:  ssh -i private-key -L 9090:localhost:9090 opc@ip_address_of_instance
-    Open browser http://localhost:9090
-    Login using opc credentials and tick “Reuse my password for privileged tasks”
  
 [Installation guide for Ubuntu](https://www.techrepublic.com/article/install-cockpit-ubuntu-better-server/)
 		
